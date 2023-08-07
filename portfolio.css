@@ -1,0 +1,114 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url("leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.nav_li_contact{
+ background-color: rgba(32, 199, 199, 0.477);
+ border: 2px solid white;
+ border-radius: 10px;
+}
+.section1{
+  
+}
+.section2 hr{
+    width: 70vw;
+    margin-top: 8vw;
+}
+.section3 h5{
+    color: rgba(163, 35, 99, 0.463);
+}
+.section4 hr{
+    width: 70vw;
+    margin-top: 4vw;
+    opacity: 1;
+    border-top: 5px solid;
+    margin-bottom: 0px;
+}
+.ex_div1{
+    height: 200px;
+    width: 5px;
+    background-color: black;
+    margin-left: 20px;
+}
+.ex_div1 div{
+    width: 200px;
+}
+
+.myself_div{
+margin-left: 50px;
+margin-top: 80px;
+}
+.footer{
+    background-color: rgba(112, 107, 107, 0.286);
+}
+.navbar{
+    background-color: rgba(112, 107, 107, 0.286);
+}
+.nav_li_contact a:hover{
+    color: white;
+}
+.footer{
+    margin-top: 20px;
+    padding-top: 1.5rem;
+}
+.footer_nav a{
+    text-decoration: none;
+    color: rgb(245, 12, 183);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15%;
+}
+
+.footer_nav_hover:hover{
+color:rgb(2, 35, 90);
+}
+.myself_div{
+    font-size: 3rem;
+}
+.profile_photo{
+border-radius: 50%;
+}
+.link_linkdin{
+    margin-left: 100px;
+    width: 120px;
+}
+.link_linkdin1{
+    margin-left: 50px;
+}
+/* media query */
+@media only screen and (max-width:700px){
+    .myself_div{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:660px){
+    .footer_nav{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_h{
+        margin-left: 20px;
+    }
+    .myself_div{
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+    }
+    .ex_div1{
+        width: 10px;
+    }
+    .footer_all_div{
+        flex-direction: column;
+
+    }
+    .footer_nav_1{
+        flex-direction: column;
+    }
+    .link_linkdin{
+        margin-left: 50px;
+    }
+}
