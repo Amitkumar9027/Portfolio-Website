@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('contact_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_li_contact{
+    background-color: rgba(35, 231, 231, 0.477);
+    border: 2px solid white;
+    border-radius: 10px;
+   }
+   .navbar{
+    background-color: rgba(112, 107, 107, 0.086);
+}
+.nav_li_contact a:hover{
+    color: white;
+}
+.profile_photo{
+    border-radius: 50%;
+    }
+
+    /* media queries */.
+ @media only screen and (max-width:660px){
+.contact_details{
+    font-size: 10px;
+}
+ }
